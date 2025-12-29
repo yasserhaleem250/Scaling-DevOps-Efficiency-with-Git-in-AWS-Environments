@@ -1,0 +1,44 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetObject",
+        "s3:GetObjectVersion",
+        "s3:PutObject",
+        "codecommit:GetRepository",
+        "codecommit:GetBranch",
+        "codecommit:GitPull",
+        "codebuild:StartBuild",
+        "codebuild:BatchGetBuilds",
+        "codedeploy:CreateDeployment",
+        "codedeploy:GetApplication",
+        "codedeploy:GetDeploymentConfig"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetObject",
+        "s3:GetObjectVersion",
+        "s3:PutObject",
+        "codecommit:GetRepository",
+        "codecommit:GetBranch",
+        "codecommit:GitPull",
+        "codebuild:StartBuild",
+        "codebuild:BatchGetBuilds",
+        "codedeploy:CreateDeployment",
+        "codedeploy:GetApplication",
+        "codedeploy:GetDeploymentConfig"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

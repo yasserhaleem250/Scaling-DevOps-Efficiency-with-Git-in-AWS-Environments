@@ -1,0 +1,38 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "codedeploy:CreateDeployment",
+        "codedeploy:GetApplication",
+        "codedeploy:GetDeployment",
+        "codedeploy:GetDeploymentConfig",
+        "s3:GetObject",
+        "s3:GetBucketLocation",
+        "ec2:DescribeInstances",
+        "iam:PassRole"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "codedeploy:CreateDeployment",
+        "codedeploy:GetApplication",
+        "codedeploy:GetDeployment",
+        "codedeploy:GetDeploymentConfig",
+        "s3:GetObject",
+        "s3:GetBucketLocation",
+        "ec2:DescribeInstances",
+        "iam:PassRole"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
